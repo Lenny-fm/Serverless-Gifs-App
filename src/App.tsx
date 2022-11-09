@@ -1,6 +1,5 @@
-import { Flex, Text, Input, Button, useToast, Grid } from '@chakra-ui/react';
+import { Flex, Text, Input, useToast, Grid } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
-import { Form, Formik } from 'formik';
 
 type GifType = {
 	id: string;
