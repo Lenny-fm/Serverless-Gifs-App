@@ -8,7 +8,7 @@ type GifType = {
 
 const GifCard = ({ URL }: { URL: string }): JSX.Element => <iframe title={URL} src={URL} allowFullScreen />;
 
-const App = () => {
+const App = (): JSX.Element => {
 	const [value, setValue] = useState('');
 	const [gifs, setGifs] = useState<GifType[]>([]);
 	const toast = useToast();
